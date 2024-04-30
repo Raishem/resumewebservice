@@ -8,7 +8,7 @@ const port = 3000;
     {
         personal_info:
             {
-                name: "Shem John Juevesano",
+                name: 'Shem John Juevesano',
                 Address: "Sitio Sereas, Lorega, San Miguel, Cebu City",
                 ContactNo: "09651634871",
                 Email: "sjjuevesano@gmail.com",
@@ -18,21 +18,23 @@ const port = 3000;
             },
         
         about_me: 
-        
             {
                 Description: "Hello! I'm Shem, and for now, I am still a 2nd year College of Computer Studies student. I am aiming to enhance my coding skills especially in HTML, CSS, Javascript, and more! That's because I'm dreaming of becoming a full-stack developer."
             },
-        
+        job:
+        {
+            fjob: "Full Stack Developer"
+        },
 
         skills: 
         [
-            {
-                SkillName: "HTML/CSS",
-                SkillName: "Javascript",
-                SkillName: "PHP",
-                SkillName: "Gaming",
-                SkillName: "Rizzz"
-            }
+            
+            "HTML/CSS",
+             "Javascript", 
+             "PHP", 
+             "Gaming",
+              "Rizzz"
+            
         ],
 
         education:
