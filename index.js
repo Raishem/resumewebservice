@@ -85,11 +85,7 @@ const port = 3000;
 app.get('/', (req,res) => { 
     res.json(profile);
 });
-    app.get('/', (req, res) => {
-        res.json(profile);
-    });
     
-
 app.listen(port, () => {
     console.log(`Server running on port link ${3000}`);
 });
