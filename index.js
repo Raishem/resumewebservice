@@ -21,9 +21,9 @@ const profile = {
                  "Hello! I'm Shem, and for now, I am still a 2nd year College of Computer Studies student. I am aiming to enhance my coding skills especially in HTML, CSS, Javascript, and more! That's because I'm dreaming of becoming a full-stack developer."
         ],
         job:
-        {
-            fjob: "Full Stack Developer"
-        },
+        [
+             "Full Stack Developer"
+        ],
 
         skills: 
         [
