@@ -65,18 +65,20 @@ const profile = {
         ],
 
         experience: 
-            {
+    [
+        {
                 jobtitle: "Non-Voice Call Center Agent",
                 company_name: "Fiercecom",
-            },
+        }
+    ],
         
 
         references: 
-        
+        [
             {
                 description: "No references yet"
-            },
-        
+            }
+        ],
 
         awards:
         [
