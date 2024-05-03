@@ -1,26 +1,25 @@
 const express = require('express');
-const cors = require('cors')
+const cors = require('cors');
 const app = express();
 const port = 3000;
 
 
-    const profile =
-    {
+const profile = {
         personal_info:
             {
                 name: 'Shem John Juevesano',
-                Address: "Sitio Sereas, Lorega, San Miguel, Cebu City",
-                ContactNo: "09651634871",
-                Email: "sjjuevesano@gmail.com",
-                Birthdate: "April 20, 2001",
-                Age: "23",
-                Gender: "Male"
+                address: "Sitio Sereas, Lorega, San Miguel, Cebu City",
+                contactno: "09651634871",
+                email: "sjjuevesano@gmail.com",
+                birthdate: "April 20, 2001",
+                age: "23",
+                gender: "Male"
             },
         
         about_me: 
-            {
-                Description: "Hello! I'm Shem, and for now, I am still a 2nd year College of Computer Studies student. I am aiming to enhance my coding skills especially in HTML, CSS, Javascript, and more! That's because I'm dreaming of becoming a full-stack developer."
-            },
+            [
+                 "Hello! I'm Shem, and for now, I am still a 2nd year College of Computer Studies student. I am aiming to enhance my coding skills especially in HTML, CSS, Javascript, and more! That's because I'm dreaming of becoming a full-stack developer."
+        ],
         job:
         {
             fjob: "Full Stack Developer"
@@ -66,7 +65,7 @@ const port = 3000;
             }
         ],
 
-        work_experience: 
+        experience: 
             {
                 jobtitle: "Non-Voice Call Center Agent",
                 company_name: "Fiercecom",
@@ -77,9 +76,19 @@ const port = 3000;
         
             {
                 description: "No references yet"
-            }
-        }
+            },
+        
 
+        awards:
+        [
+            'Deans Lister - College BSIT 1ST Year (First Semister)',
+            'Deans Lister - College BSIT 1ST Year (Second Semister)',
+            'Deans Lister - College BSIT 2nd Year (First Semister)'
+        ],
+
+    };
+
+app.use(cors());
 
     
 app.get('/', (req,res) => { 
