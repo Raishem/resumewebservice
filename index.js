@@ -57,8 +57,7 @@ const profile = {
                 schooladdress: "Busogon, San Remigio, Cebu"
             },
             {
-                level: "College",
-                course: "Bachelor of Science in Information Technology",
+                level: "College (Bachelor of Science in Information Technology)",
                 school: "University of Southern Philippines Foundation",
                 year: "2022-2024",
                 schooladdress: "Salinas Drive, Lahug, Cebu City"
