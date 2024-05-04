@@ -68,7 +68,7 @@ const profile = {
     [
         {
                 jobtitle: "Non-Voice Call Center Agent",
-                company_name: "Fiercecom",
+                companyname: "Fiercecom"
         }
     ],
         
@@ -76,8 +76,20 @@ const profile = {
         references: 
         [
             {
-                description: "No references yet"
-            }
+               namee: "No references yet",
+               contactnum: "09123456789",
+               work: "Teacher"
+            },
+            {
+                namee: "No references yet",
+                contactnum: "09123456789",
+                work: "Teacher"
+             },
+             {
+                namee: "No references yet",
+                contactnum: "09123456789",
+                work: "Teacher"
+             }
         ],
 
         awards:
